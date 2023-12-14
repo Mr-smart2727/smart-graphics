@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+   text-align: center;
+  }
+
+.navlink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(215, 209, 233);
+    padding: 1rem 8rem;
+    gap: 50px;
+}
+
+.navlink a{
+  padding: 0 1rem;
+  color: rgb(46, 82, 180);
+}
+
+button{
+    all:unset;
+    border-radius: 20px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+  }
+
+  .body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/bgimg.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  main div{
+    padding: 7px 50px;
+  }
+
+  main div h1{
+    margin-top: 8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+  }
+
+  main div p{
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    margin: 13px 0;
+  }
+
+  main div{
+    width: 60%;
+  }
+
+ article{
+    margin-top: 5rem;
+    text-align: center;
+   }
+
+  .header{
+    text-align: center;
+    justify-content: center;
+    margin-top: 6rem;
+    background-color:rgba(128, 128, 128, 0.151);
+  }
+
+    .gallery{
+    align-items: center;
+    color:rgb(10, 10, 20);
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .art{
+    color: rgb(181, 29, 212);
+  }
+
+  .p2{
+    margin-top: 1rem;
+  }
+
+  .ri-shake-hands-fill{
+    margin: 150px;
+    font-size: 69px;
+    color: red;
+  }
+
+.basic{
+  font-size: 20px;
+  width: 29%;
+  margin: auto;
+}
+ 
+.image{
+display: flex;
+justify-content: space-between;
+gap: 20px;
+text-align: center;
+padding: 60px;
+}
+.owl-carousel .owl-item img{
+  width: 100%;
+  margin: auto;
+}
+
+.owl-nav{
+  display: none;
+}
+
+.owl-dots{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.owl-dot{
+  padding: 5px;
+  background-color: orangered;
+  border-radius: 50%;
+}
+
+.owl-dot.active{
+  background-color: rgb(199, 199, 199);
+}
